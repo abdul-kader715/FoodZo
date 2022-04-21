@@ -1,0 +1,29 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Roboto:wght@400;500;700&display=swap');
+
+// fonts
+$base-font-size: 15px;
+$body-font:'Playfair Display', serif;
+$base-font: 'Roboto', sans-serif;
+$heading-font: 'Roboto', sans-serif;
+
+// color
+$dark-gray: #070143;
+$body-color: #687693;
+$white: #fff;
+$light: #FF9900;
+$black: #000;
+$small-black: #1E272E;
+$cyan: #848892;
+
+$theme-primary-color: #05C46B;
+$theme-primary-color-s2: #F0F6EC;
+$body-bg-color: #fff;
+$section-bg-color: #7E8280;
+$text-color: #999E9C;
+$text-light-color: #747474;
+$heading-color: $dark-gray;
+$border-color: #ebebeb;
+$border-color-s2: #d8e0f1;

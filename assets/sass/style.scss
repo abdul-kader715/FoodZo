@@ -1,0 +1,123 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     FoodZo - Grocery and Organic Food Shop HTML Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 start of wpo-hero-support
+	3.3 wpo-offer-section
+	3.4 wpo-product-section
+	3.5 wpo-offer-section
+	3.6 wpo-trendy-products-section
+	3.7 wpo-partners-section
+	3.8 wpo-upcomming-offer-section
+	3.9 wpo-testimonial-section
+	3.10 wpo-subscribe-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 category-area
+   5.2 about-section
+   5.3 blog-area
+
+6. about page
+   6.1 team-section
+   6.2 tp-fun-fact-section
+
+ 7. cart-page-style
+
+ 8. Shop Page
+
+9. checkout-page-style
+
+10. Product Page
+
+11. Product Single
+
+12. projects
+
+13. Project single Page
+
+14. wpo-team-single
+
+15. wpo-blog-pg-section
+
+16. wpo-blog-single-section
+
+17. wpo-contact-pg-section
+
+18. error-404-section
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+@import "page/_home-style2";
+@import "page/_about";
+@import "page/_cart";
+@import "page/_shop";
+@import "page/_checkout";
+@import "page/_product";
+@import "page/_product-single";
+@import "page/_project";
+@import "page/_project-single";
+@import "page/_team-single";
+@import "page/_blog";
+@import "page/_blog-single";
+@import "page/_contact";
+@import "page/_error-404";
+
+@import "page/modal";
+
+
+
+
